@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/weekend/Library/Arduino15/packages/m5stack/hardware/esp32/2.1.4/cores/esp32/**",
+                "/Users/weekend/Library/Arduino15/packages/m5stack/hardware/esp32/2.1.4/tools/sdk/esp32/include/**",
+                "/Users/weekend/Library/Arduino15/packages/m5stack/hardware/esp32/2.1.4/tools/sdk/esp32/include/driver/include/**",
+                "/Users/weekend/Library/Arduino15/packages/m5stack/hardware/esp32/2.1.4/tools/sdk/esp32/include/newlib/platform_include/**",
+                "/Users/weekend/Library/Arduino15/packages/m5stack/hardware/esp32/2.1.4/variants/**",
+                "/Users/weekend/Documents/Arduino/libraries/M5GFX/src/**",
+                "/Users/weekend/Documents/Arduino/libraries/M5Unified/src/**"
+            ],
+            "defines": [
+                "ESP32",
+                "ARDUINO_M5STACK_ATOMS3",
+                "ARDUINO=10819",
+                "ARDUINO_ARCH_ESP32",
+                "ARDUINO_VARIANT=\"esp32s3\"",
+                "ARDUINO_BOARD=\"M5Stack ATOMS3\"",
+                "ESP_PLATFORM",
+                "IDF_VER=\"v4.4.3\"",
+                "ARDUINO_USB_CDC_ON_BOOT=1",
+                "CONFIG_IDF_TARGET_ESP32S3=1"
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "forcedInclude": [
+                "/Users/weekend/Library/Arduino15/packages/m5stack/hardware/esp32/2.1.4/cores/esp32/Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+} 

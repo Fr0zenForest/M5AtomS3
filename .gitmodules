@@ -1,0 +1,3 @@
+[submodule "libs/M5GFX"]
+	path = libs/M5GFX
+	url = https://github.com/m5stack/M5GFX.git

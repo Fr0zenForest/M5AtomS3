@@ -13,8 +13,11 @@
  * M5Unified: https://github.com/m5stack/M5Unified
  * M5AtomS3: https://github.com/m5stack/M5AtomS3
  */
+#include <M5Unified.h>
+#include <M5GFX.h>
 #include <M5AtomS3.h>
-#include "driver/twai.h"
+#include <driver/twai.h>
+#include "esp_idf_version.h"
 
 // Pins used to connect to CAN bus transceiver:
 #define RX_PIN 6
